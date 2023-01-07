@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="meme.css">
+    <link rel="stylesheet" href="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine.css" />
+    
+</head>
+<body>
+    <script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine.js"></script>
+    <script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine-html.js"></script>
+    <script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/boot0.js"></script>
+    <script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/boot1.js"></script>
+    <div id="memeDiv">
+        <form action="">
+            <label for="memeData"></label>
+            <input id="imageUrl"type="url" placeholder="image url">
+            <input id ="topText"type="text" placeholder="Top Text">
+            <input id="bottomText"type="text" placeholder="Bottom Text">
+            <input type="submit">
+        </form>
+    </div>
+    <div id="memeDisplay"></div>
+    <script src="meme.js"></script>
+    <script src="meme.test.js"></script>
+</body>
+</html>

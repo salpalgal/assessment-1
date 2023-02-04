@@ -1,9 +1,14 @@
-/* #memeDisplay{
-    box-sizing: border-box;
-    border: solid 5px black;
-    height: 100px;
-    width:100px;
-} */
+/* #memeDisplay{ */
+    /* position:relative; */
+    /* top:5rem; */
+    /* display: flex;
+    justify-content: center; */
+    /* width:150px;
+    height:180px; */
+    /* border: none;
+    margin: auto;  */
+    /* margin-bottom: 3em;  */
+/* }  */
 
 body{
     background-image: url(https://garden.spoonflower.com/c/11145229/p/f/m/3PboHRElscardtU3vjHH5jbiG3Fo_is2CFAlhn1qQGcBNL7m4hQSorDE15SH/Pastel%20Cloud%20Tie-Dye.jpg);
@@ -34,9 +39,33 @@ img{
     top:0px;
     left:0px;
     
+    
 
 }
+/* #bodyDiv{
+    position:relative;
+    top:5rem;
+    display: flex;
+    justify-content: center;
+    width:150px;
+    height:180px;
+    border: none;
+    margin: auto; 
+    margin-bottom: 3em;  
+} */
 #memeContain{
+    position: relative;
+    top:1rem;
+    display: flex;
+    justify-content: center;
+    width:150px;
+    height:180px;
+    border: none;
+    margin:   0 auto; 
+    margin-bottom: 1em;   
+}
+
+/* #singleMeme{
     position:relative;
     top:5rem;
     display: flex;
@@ -46,8 +75,7 @@ img{
     border: none;
     margin: auto; 
     margin-bottom: 3em;   
-}
-
+} */
 #top{
     position:absolute;
     text-align: center;

@@ -1,0 +1,77 @@
+/* #memeDisplay{
+    box-sizing: border-box;
+    border: solid 5px black;
+    height: 100px;
+    width:100px;
+} */
+
+body{
+    background-image: url(https://garden.spoonflower.com/c/11145229/p/f/m/3PboHRElscardtU3vjHH5jbiG3Fo_is2CFAlhn1qQGcBNL7m4hQSorDE15SH/Pastel%20Cloud%20Tie-Dye.jpg);
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    justify-content: space-center;
+    
+}
+#memeDiv{
+    display: inline-block;
+    background-color: black;
+    opacity: 50%;
+    padding-top:10px ;
+    padding-left: 10px;
+    padding-right: 0;
+    margin: 1em;
+    
+}
+
+img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    position:absolute;
+    top:0px;
+    left:0px;
+    
+
+}
+#memeContain{
+    position:relative;
+    top:5rem;
+    display: flex;
+    justify-content: center;
+    width:150px;
+    height:180px;
+    border: none;
+    margin: auto; 
+    margin-bottom: 3em;   
+}
+
+#top{
+    position:absolute;
+    text-align: center;
+    top:0px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    
+    
+
+}
+
+#bottom{
+    position:absolute;
+    text-align:center;
+    bottom:30px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+#remove{
+    position:absolute;
+    text-align:center;
+    
+    bottom:0px
+}
